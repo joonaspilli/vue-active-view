@@ -1,0 +1,50 @@
+# vue-active-view
+
+{{#function}}
+{{>description}}
+{{/function}}
+
+## Installation
+
+``` shell
+$ npm install vue-active-view
+```
+
+## Registering to a Vue instance
+
+``` javascript
+    import Vue from 'vue';
+    import activeView from 'vue-active-view';
+
+    Vue.directive('active-view', activeView({ className: 'my-active-class' }));
+```
+
+## Possible parameters
+
+{{#function}}
+{{>params}}
+{{/function}}
+
+## Usage in template
+
+``` html
+    <a href="#foo" v-active-view="'foo'">
+        Foo
+    </a>
+
+    <a href="#bar" v-active-view="'bar'">
+        Bar
+    </a>
+```
+
+The "foo" and "bar" values passed to the directive are unique HTML id's of elements that can be scrolled to. Note that the elements need to exist before the bound element of this directive is inserted into its parent node.
+
+## Development
+
+``` shell
+# install dependencies
+$ npm install
+
+# generate README
+$ npm run readme
+```

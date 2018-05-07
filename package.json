@@ -1,0 +1,23 @@
+{
+    "name": "vue-active-view",
+    "version": "1.0.0",
+    "description": "A custom Vue.js directive for visually updating active navigation link based on current scroll position.",
+    "main": "vue-active-view.js",
+    "scripts": {
+        "readme": "npx jsdoc2md --template README.hbs vue-active-view.js > README.md",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Joonas Pilli",
+    "license": "MIT",
+    "keywords": ["javascript", "vue", "vue.js", "directive", "navigation", "scroll"],
+    "bugs": {
+        "url": "https://github.com/joonaspilli/vue-active-view/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joonaspilli/vue-active-view.git"
+    },
+    "devDependencies": {
+        "jsdoc-to-markdown": "^4.0.1"
+    }
+}
