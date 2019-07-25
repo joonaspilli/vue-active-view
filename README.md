@@ -1,5 +1,7 @@
 # vue-active-view
 
+**THIS PROJECT IS UNMAINTAINED! USAGE NOT RECOMMENDED!**
+
 A custom Vue.js directive for visually updating active navigation link based
 on current scroll position.
 
